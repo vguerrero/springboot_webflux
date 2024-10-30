@@ -1,0 +1,17 @@
+server:
+  port: 1453
+spring:
+  config:
+    activate:
+      on-profile: default
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: reactiveSpringExample
+      username: root
+      password: pass
+      authentication-database: admin
+      uri: mongodb://root:pass@localhost:27017/reactiveSpringExample?authSource=admin
+
+
